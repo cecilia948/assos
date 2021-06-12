@@ -1,0 +1,36 @@
+*{
+    font-family: "Indie Fleur", sans-serif;
+    
+}
+
+.navbar {
+    height: 200px;
+    background-color: rgb(255, 169, 169);
+    font-weight: 600;
+    box-shadow: black;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#logo {
+    border: 2px black solid;
+    width: 200px;
+    height: 200px;
+}
+
+.nav-item {
+    padding: 5%;
+}
+
+
+@media (max-width:468px) {
+    #logo {
+        width: 180px;
+        height: 180px;
+    }
+}
